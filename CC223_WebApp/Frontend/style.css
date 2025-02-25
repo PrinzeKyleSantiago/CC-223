@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'GenshinImpact';
+    src: url('fonts/zh-cn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+body {
+    font-family: 'GenshinImpact', Arial, sans-serif;
+    text-align: justify;
+    color: white;
+    margin: 75px;
+    padding: 0;
+    height: 100vh; 
+    background-image: url('Images/Genshin.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: space;
+
+    backdrop-filter: blur(2px);
+}
+
+p{
+    background-color: rgba(138, 136, 136, 0.7);
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 40px; 
+    font-weight: bold; 
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
